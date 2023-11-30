@@ -1,5 +1,6 @@
 Installation guide 
 Step 1 : Install the dependencies mentioned in the requirement.txt 
+   Use `pip install Requirements.txt`
 Step 2 : Download the following pickle files
 1."Collection.pkl" 
    This file contains the Qdrant client which is used to get relevant context/documents to the question from the dataBase.

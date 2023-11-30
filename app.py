@@ -4,7 +4,7 @@ from flask import Flask,request,jsonify
 from flask_cors import CORS
 from flask_cors import cross_origin
 from qdrant_client import QdrantClient
-
+import dill
 BERT_MODEL_PATH = "reader.pkl"
 ENC_PATH  = "embedding_model.pkl"
 QDRANT_PATH  = "collection.pkl"
